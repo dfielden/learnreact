@@ -10,7 +10,7 @@ export function UserProfile({user}) { // each item in array is {user: {data}}, s
                     borderRadius: 200
                 }}
             />
-            <p><b>Name:</b> {user.name.first + ' ' +user.name.first}</p>
+            <p><b>Name:</b> {user.name.first + ' ' +user.name.last}</p>
             <p><b>Country:</b> {user.location.country}</p>
         </div>
     );
