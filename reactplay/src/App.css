@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.profileGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userProfile {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.userProfile:hover {
+  background: rgba(0, 240, 232, 0.2);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
